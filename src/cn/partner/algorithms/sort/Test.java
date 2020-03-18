@@ -20,6 +20,10 @@ public class Test {
 //        (1000, 30000); // → long_numbers.txt
         arr = Utils.readAsArray("/long_numbers.txt");
 
+//        arr = new int[]{6 ,1 ,2 ,9 ,4, 1, 7, 3, 8, 5};
+
+        Utils.print(arr);
+
         long start = System.currentTimeMillis();
 
 
@@ -28,19 +32,16 @@ public class Test {
 //        new _02_SelectionSort().sort(arr);            // 560ms
 //        new _03_InsertionSort().sort(arr);            // 280ms
 //        new _04_ShellSort().sort(arr);                // 5ms
-        new _05_MergeSort().sort(arr);                // 350ms
-
+//        new _05_MergeSort().sort(arr);                // 5ms
+//        new _06_QuickSort().sort(arr);                // ※ 4ms, 也有5ms的情况，够突出的了，优秀！
+//        new _07_HeapSort().sort(arr);                 // 7ms
+        new _08_CountingSort().sort(arr);             // ※ 2ms, 你最厉害！！
 
 
         long cost = System.currentTimeMillis() - start;
-        System.out.println("cost: " + cost + "ms");
+        System.out.printf("\ncost: %dms, result ↓\n", cost);
         Utils.print(arr);
     }
-
-
-
-
-
 }
 
 

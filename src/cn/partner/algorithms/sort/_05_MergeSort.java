@@ -6,7 +6,8 @@ import java.util.stream.Collectors;
 /**
  * 归并排序
  * 递归思想化整为零，将数组平分两组分别排序，然后再合并。
- * 利用空间换时间，实现两个有序数组的快速合并。
+ * n^2 < (2/n)^2 * 2，拆开有好处，个人觉得。
+ * 同时利用了空间换时间，实现两个有序数组的快速合并。
  */
 public class _05_MergeSort implements IArraySort {
 
