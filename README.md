@@ -9,4 +9,7 @@
 - _05_MergeSort
 - _06_QuickSort
 - _07_HeapSort
+- _08_CountingSort
 
+#### LinkedList algorithms
+- _01_FindIntersection
