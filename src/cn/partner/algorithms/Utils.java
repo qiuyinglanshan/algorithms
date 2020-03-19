@@ -36,6 +36,7 @@ public class Utils {
         return node;
     }
 
+//    arr = gen(1000, 30000); // → long_numbers.txt
     public static int[] gen(int bound, int n) {
         int[] arr = new int[n];
         Random r = new Random();

@@ -6,7 +6,8 @@ package cn.partner.algorithms.sort;
  * 从数组中取出一个数，然后通过每一趟的交换，让它前边的数都比它小，后边的数都比它大。
  * 然后再对两边分别进行这样的递归操作。
  *
- * 具体每一趟的交换是从数组两端各一个指针向中间遍历，遇到顺序不一致的数据就进行交换，直到两个指针碰面。
+ * 具体每一趟的交换是从数组两端各一个指针向中间遍历，跟我们这个数比较，
+ * 遇到顺序不一致的数据就进行交换，直到两个指针碰面，就达到了目的。
  */
 public class _06_QuickSort implements IArraySort {
 
@@ -15,7 +16,7 @@ public class _06_QuickSort implements IArraySort {
         sort(arr, 0, arr.length -1);
     }
 
-    public void sort(int[] arr, int start, int end) {
+    private void sort(int[] arr, int start, int end) {
         if (start >= end) {
             return;
         }
