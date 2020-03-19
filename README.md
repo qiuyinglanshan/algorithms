@@ -10,6 +10,8 @@
 - _06_QuickSort
 - _07_HeapSort
 - _08_CountingSort
+- _09_BucketSort
+- _10_RadixSort
 
 #### LinkedList algorithms
 - _01_FindIntersection
