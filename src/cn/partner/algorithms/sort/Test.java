@@ -4,29 +4,14 @@ import cn.partner.algorithms.Utils;
 
 public class Test {
 
-    private static int[] arr = new int[]{
-            23, 56, 7, 3, 2, 67, 45, 2, 5, 677, 22,
-            4, 778, 32, 98, 2, 67, 1, 67, 2, 2, 40,
-            23, 763, 82, 92, 43, 72, 9, 378, 27, 73,
-            23, 56, 7, 3, 2, 67, 45, 2, 5, 677, 22,
-            4, 778, 32, 98, 2, 67, 1, 67, 2, 2, 40,
-    };
-
-
     public static void main(String[] args) {
-//      arr = gen
-//
-//
-//        (1000, 30000); // → long_numbers.txt
-        arr = Utils.readAsArray("/long_numbers.txt");
+        int[] arr = Utils.readAsArray("/long_numbers.txt");
 
 //        arr = new int[]{6 ,1 ,2 ,9 ,4, 1, 7, 3, 8, 5};
 
         Utils.print(arr);
 
         long start = System.currentTimeMillis();
-
-
 
 //        new _01_BubbleSort().sort(arr);               // 1680ms
 //        new _02_SelectionSort().sort(arr);            // 560ms
@@ -35,7 +20,9 @@ public class Test {
 //        new _05_MergeSort().sort(arr);                // 5ms
 //        new _06_QuickSort().sort(arr);                // ※ 4ms, 也有5ms的情况，够突出的了，优秀！
 //        new _07_HeapSort().sort(arr);                 // 7ms
-        new _08_CountingSort().sort(arr);             // ※ 2ms, 你最厉害！！
+//        new _08_CountingSort().sort(arr);             // ※ 2ms, 你最厉害！！
+//        new _09_BucketSort(30000).sort(arr);          // 10ms
+//        new _10_RadixSort().sort(arr);                // 16ms
 
 
         long cost = System.currentTimeMillis() - start;
