@@ -1,4 +1,4 @@
-package cn.partner.algorithms.interview;
+package cn.partner.algorithms.interview.array;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

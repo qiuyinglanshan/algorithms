@@ -1,4 +1,4 @@
-package cn.partner.algorithms.interview;
+package cn.partner.algorithms.interview.other;
 
 /**
  * 写一个单例

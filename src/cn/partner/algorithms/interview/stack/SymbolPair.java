@@ -1,4 +1,4 @@
-package cn.partner.algorithms.interview;
+package cn.partner.algorithms.interview.stack;
 
 import java.util.Stack;
 

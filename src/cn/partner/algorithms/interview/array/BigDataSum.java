@@ -1,4 +1,4 @@
-package cn.partner.algorithms.interview;
+package cn.partner.algorithms.interview.array;
 
 /**
  * 大整数相加

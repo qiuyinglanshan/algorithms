@@ -1,5 +1,7 @@
-package cn.partner.algorithms.interview;
-
+package cn.partner.algorithms.interview.other;
+/**
+ * 只考虑了正数，负数的二进制的补码形式=反码 + 1
+ */
 public class DecimalToBinary {
 
     public static void main(String[] args) {
